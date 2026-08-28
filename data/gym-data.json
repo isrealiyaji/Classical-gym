@@ -1,0 +1,162 @@
+{
+  "members": [
+    {
+      "id": "M-1001",
+      "name": "Alicia Thompson",
+      "email": "alicia@example.com",
+      "phone": "+1 555 101 3344",
+      "plan": "Premium",
+      "joined": "2025-01-18",
+      "status": "active",
+      "goal": "Strength transformation"
+    },
+    {
+      "id": "M-1002",
+      "name": "Marcus Hill",
+      "email": "marcus@example.com",
+      "phone": "+1 555 321 8765",
+      "plan": "Elite",
+      "joined": "2025-02-08",
+      "status": "active",
+      "goal": "Body recomposition"
+    },
+    {
+      "id": "M-1003",
+      "name": "Sofia Nguyen",
+      "email": "sofia@example.com",
+      "phone": "+1 555 420 4531",
+      "plan": "Starter",
+      "joined": "2025-03-22",
+      "status": "paused",
+      "goal": "Muscle endurance"
+    }
+  ],
+  "trainers": [
+    {
+      "id": "T-5001",
+      "name": "Coach Jordan",
+      "specialty": "Strength & HIIT",
+      "experience": "8 years",
+      "rating": 4.9
+    },
+    {
+      "id": "T-5002",
+      "name": "Coach Maya",
+      "specialty": "Pilates & Mobility",
+      "experience": "6 years",
+      "rating": 4.8
+    },
+    {
+      "id": "T-5003",
+      "name": "Coach Luis",
+      "specialty": "Athletic Conditioning",
+      "experience": "7 years",
+      "rating": 4.9
+    }
+  ],
+  "classes": [
+    {
+      "id": "C-2001",
+      "name": "Power Lift",
+      "time": "06:30 AM",
+      "day": "Monday",
+      "coach": "Coach Jordan",
+      "capacity": 18,
+      "enrolled": 14
+    },
+    {
+      "id": "C-2002",
+      "name": "Spin Blast",
+      "time": "12:00 PM",
+      "day": "Wednesday",
+      "coach": "Coach Maya",
+      "capacity": 20,
+      "enrolled": 17
+    },
+    {
+      "id": "C-2003",
+      "name": "Bootcamp Circuit",
+      "time": "06:00 PM",
+      "day": "Friday",
+      "coach": "Coach Luis",
+      "capacity": 22,
+      "enrolled": 20
+    },
+    {
+      "id": "C-2004",
+      "name": "Mobility Flow",
+      "time": "07:15 AM",
+      "day": "Saturday",
+      "coach": "Coach Maya",
+      "capacity": 16,
+      "enrolled": 11
+    }
+  ],
+  "plans": [
+    {
+      "id": "P-3001",
+      "name": "Starter",
+      "price": 39,
+      "description": "Access to gym floor + one class per week",
+      "features": [
+        "Gym access",
+        "1 class per week",
+        "Locker room"
+      ]
+    },
+    {
+      "id": "P-3002",
+      "name": "Premium",
+      "price": 69,
+      "description": "Unlimited access plus personal training perks",
+      "features": [
+        "Unlimited classes",
+        "2 PT sessions/month",
+        "Nutrition guidance"
+      ]
+    },
+    {
+      "id": "P-3003",
+      "name": "Elite",
+      "price": 109,
+      "description": "Priority support for serious performance goals",
+      "features": [
+        "Unlimited coaching",
+        "Priority booking",
+        "Body analysis"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "B-4001",
+      "memberId": "M-1001",
+      "classId": "C-2001",
+      "memberName": "Alicia Thompson",
+      "className": "Power Lift",
+      "status": "confirmed"
+    },
+    {
+      "id": "B-4002",
+      "memberId": "M-1002",
+      "classId": "C-2003",
+      "memberName": "Marcus Hill",
+      "className": "Bootcamp Circuit",
+      "status": "confirmed"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "A-7001",
+      "memberName": "Alicia Thompson",
+      "date": "2026-08-27",
+      "checkIn": "06:42 AM"
+    },
+    {
+      "id": "A-7002",
+      "memberName": "Marcus Hill",
+      "date": "2026-08-27",
+      "checkIn": "07:05 AM"
+    }
+  ]
+}
