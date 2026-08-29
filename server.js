@@ -37,6 +37,7 @@ const createSeedData = () => ({
       status: 'active',
       goal: 'Body recomposition',
     },
+
     {
       id: 'M-1003',
       name: 'Sofia Nguyen',
@@ -119,7 +120,7 @@ const generateId = (prefix) => `${prefix}-${Date.now()}-${Math.floor(Math.random
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
-    app: 'StrongForge Gym',
+    app: 'Classical Gym',
     message: 'Gym API is running successfully.',
   });
 });
@@ -339,5 +340,5 @@ app.use((req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`StrongForge Gym API is running on http://localhost:${PORT}`);
+  console.log(`Classical Gym API is running on http://localhost:${PORT}`);
 });

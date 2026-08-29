@@ -1,7 +1,7 @@
 {
-  "name": "strongforge-gym-backend",
+  "name": "classical-gym-backend",
   "version": "1.0.0",
-  "description": "Express API for a modern gym management website",
+  "description": "Express API for a modern Classical Gym management website",
   "type": "module",
   "main": "server.js",
   "scripts": {
