@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classical Gym</title>
+    <meta name="description" content="Classical Gym website with memberships, classes, trainers, and coaching." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">CG</span>
+          <span>Classical Gym</span>
+        </div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#plans">Plans</a>
+          <a href="#classes">Classes</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="primary-btn" href="#join">Join Now</a>
+      </div>
+    </header>
+
+    <div id="apiStatus" class="api-banner" aria-live="polite" hidden></div>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">TRAIN HARD. RECOVER SMART.</span>
+            <h1>Build strength, energy, and confidence every day.</h1>
+            <p>
+              We combine elite coaching, functional training, and real recovery support to help you feel your strongest.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#join">Get Started</a>
+              <a class="secondary-btn" href="#plans">View Plans</a>
+            </div>
+            <div class="hero-stats" id="heroStats">
+              <div>
+                <strong>1200+</strong>
+                <span>Members</span>
+              </div>
+              <div>
+                <strong>30+</strong>
+                <span>Classes/Week</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>Average Rating</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="glass-card trainer-card">
+              <div class="mini-label">Featured Coach</div>
+              <h3>Coach Jordan</h3>
+              <p>Strength + conditioning specialist</p>
+              <div class="mini-cta">
+                <span>1:1 coaching available</span>
+              </div>
+            </div>
+            <div class="floating-badge">
+              <strong>95%</strong>
+              <span>member retention</span>
+            </div>
+            <div class="card-panel">
+              <p>Open 6am to 10pm</p>
+              <strong>Live class schedule</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics" id="about">
+        <div class="container metric-grid" id="summaryCards"></div>
+      </section>
+
+      <section class="plans section-spacing" id="plans">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">MEMBERSHIP OPTIONS</span>
+            <h2>Choose your training path</h2>
+          </div>
+          <div class="plan-grid" id="plansGrid"></div>
+        </div>
+      </section>
+
+      <section class="classes section-spacing" id="classes">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">CLASS SCHEDULE</span>
+            <h2>Train with the best coaches</h2>
+          </div>
+          <div class="class-grid" id="classesGrid"></div>
+        </div>
+      </section>
+
+      <section class="trainers section-spacing" id="trainers">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">OUR COACHES</span>
+            <h2>Support from world-class trainers</h2>
+          </div>
+          <div class="trainer-grid" id="trainersGrid"></div>
+        </div>
+      </section>
+
+      <section class="join section-spacing" id="join">
+        <div class="container join-grid">
+          <div class="join-copy">
+            <span class="eyebrow">START TODAY</span>
+            <h2>Transform your routine with Classical Gym.</h2>
+            <p>
+              Book a consultation and get a personalized routine built around your goals, schedule, and recovery needs.
+            </p>
+          </div>
+
+          <form id="membershipForm" class="join-form">
+            <label>
+              Full name
+              <input type="text" name="name" placeholder="Enter your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Membership plan
+              <select name="plan" required>
+                <option value="">Select a plan</option>
+                <option value="Starter">Starter</option>
+                <option value="Premium">Premium</option>
+                <option value="Elite">Elite</option>
+              </select>
+            </label>
+            <label>
+              Fitness goal
+              <textarea name="goal" rows="3" placeholder="e.g., Lose fat and build strength"></textarea>
+            </label>
+            <button type="submit" class="primary-btn">Claim My Spot</button>
+            <p id="formMessage" class="form-message"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">CG</span>
+            <span>Classical Gym</span>
+          </div>
+          <p>High-performance training space for modern athletes and everyday lifters.</p>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <p>150 Forge Avenue</p>
+          <p>New York, NY</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>(212) 555-0147</p>
+          <p>hello@classicalgym.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
