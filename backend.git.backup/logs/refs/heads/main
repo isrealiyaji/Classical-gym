@@ -1,5 +1,0 @@
-0000000000000000000000000000000000000000 720d928188154382d332398cb598ad7d929f1450 Isreal Iyaji <isrealiyaji1@gmail.com> 1787854064 +0100	commit (initial): origin mainInitial gym website commit
-720d928188154382d332398cb598ad7d929f1450 720d928188154382d332398cb598ad7d929f1450 Isreal Iyaji <isrealiyaji1@gmail.com> 1787854066 +0100	Branch: renamed refs/heads/master to refs/heads/main
-720d928188154382d332398cb598ad7d929f1450 08274742e12efb9959450665bfe51b76a62d0a75 Isreal Iyaji <isrealiyaji1@gmail.com> 1787931970 +0100	commit: feat: convert gym backend to ES6 modules and modernize frontend JS
-08274742e12efb9959450665bfe51b76a62d0a75 aa43f2be0f7eb0e08528ea6fe66facd17e833ae8 Isreal Iyaji <isrealiyaji1@gmail.com> 1788022053 +0100	commit: updated the site name
-aa43f2be0f7eb0e08528ea6fe66facd17e833ae8 2e04499cdca6593d19dc7238e6c55986ce3d981c Isreal Iyaji <isrealiyaji1@gmail.com> 1788353301 +0100	commit: Improve server startup error handling for port conflicts (EADDRINUSE)
