@@ -2,6 +2,10 @@
   publish = "frontend"
   command = ""
 
+[context.production]
+  command = ""
+  publish = "frontend"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
